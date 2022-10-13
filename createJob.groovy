@@ -14,7 +14,7 @@ pipelineJob('theme-park-job') {
                     remote {
                         url 'https://github.com/Mohamed-Aziz-Gnewi/themeparktest.git'
                     }
-                    branch 'master'
+                    branch 'user'
                 }
             }
         }
