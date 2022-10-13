@@ -6,3 +6,17 @@ pipelineJob('pipelineJob') {
         }
     }
 }
+pipelineJob('theme-park-job') {
+    definition {
+        cpsScm {
+            scm {
+                git {
+                    remote {
+                        url 'https://github.com/Mohamed-Aziz-Gnewi/themeparktest.git'
+                    }
+                    branch 'master'
+                }
+            }
+        }
+    }
+}
